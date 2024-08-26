@@ -25,10 +25,5 @@ And the results will be saved into the csv, the weights will be saved too.
 Please note that the runtime path should be correct, and you can change the corresponding file directory to your file address.
 
 
-## Acknowledgments and Licenses
-* The main structure of our code is adapted from fbl-bert (https://dl.acm.org/doi/abs/10.1145/3510003.3510042). 
-* All license clauses are in the LICENSE file.
-
-
 ## Contact
 Feel free to contact Yali Du (duyl@lamda.nju.edu.cn) if you have any further questions.
