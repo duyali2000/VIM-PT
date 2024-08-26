@@ -25,5 +25,3 @@ And the results will be saved into the csv, the weights will be saved too.
 Please note that the runtime path should be correct, and you can change the corresponding file directory to your file address.
 
 
-## Contact
-Feel free to contact Yali Du (duyl@lamda.nju.edu.cn) if you have any further questions.
