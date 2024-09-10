@@ -15,7 +15,6 @@ from torch.utils.data.distributed import DistributedSampler
 from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup,
                           RobertaConfig, RobertaModel, RobertaTokenizer,
                           AutoConfig, AutoModel, AutoTokenizer)
-from preprocess import summary_replace, code_replace
 
 postfix = {"Java":"java", "C#":"cs", "C++":"cpp", "C":"c", "Python":"py", "PHP":"php", "Javascript":"js"}
 example = {"Java":None, "C#":None, "C++":None, "C":None, "Python":None, "PHP":None, "Javascript":None}
