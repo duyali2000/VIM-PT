@@ -19,7 +19,6 @@ This repository provides the code and guidance for reproducing the results in ou
 * Evaluate and fine-tune the pre-trained model on the multilingual dataset with 7 languages.
 ```
 python script.py
-CUDA: input your cuda device ids
 ```
 And the results will be saved into the csv, the weights will be saved too.
 Please note that the runtime path should be correct, and you can change the corresponding file directory to your file address.
