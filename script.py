@@ -22,7 +22,6 @@ os.system("python run.py" + \
         " --temperature " + str(T) + \
         " --autonum " + str(autonum) + \
         " --lamda " + str(lamda) + \
-        " --load_model_path ./save_models/checkpoint-best/pytorch_model.bin" + \
         " --num_train_epochs %s 2>&1| tee %s/epoch-%s.log" % (epochs,output_dir,epochs)
 )
 
