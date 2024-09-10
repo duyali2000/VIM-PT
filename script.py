@@ -5,11 +5,9 @@ batch_size, beam_size, epochs = 16, 4, 30
 autonum = 20
 lamda = 0.1
 
-postfix = {"Java":"java", "C#":"cs", "C++":"cpp", "C":"c", "Python":"py", "PHP":"php", "Javascript":"js"}
-cudanum = str(input("CUDA: "))
 output_dir = "./save_models/"
 os.system("mkdir -p " + output_dir)
-os.system("CUDA_VISIBLE_DEVICES=" + cudanum + " python run.py" + \
+os.system("python run.py" + \
         " --do_train" + \
         " --do_eval" + \
         " --model_type roberta" + \
